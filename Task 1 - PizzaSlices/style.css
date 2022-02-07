@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body, .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circle {
+  width: 40vh;
+  height: 40vh;
+  background: #fff;
+  border: 2px solid #171717;
+  border-radius: 50%;
+}
+
+.pizza-slices {
+  display: none;
+}
+
+.pizza-slices.active {
+  display: block;
+}
+
+.circle-text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.lines {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 50%;
+  width: 2px;
+  transform-origin: bottom center;
+  background: #171717;
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 15px 50px;
+  background-color: rgb(25, 238, 43);
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.load-message {
+  margin-top: 5px;
+  display: none;
+}
+
+.load-message.active {
+  display: block;
+}
+
+/* .label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  margin-top: 50px;
+  padding: 5px 10px;
+}
+
+.input.error {
+  border-color: red;
+  outline: red;
+}
+
+.error-message {
+  display: none;
+  margin-top: 5px;
+  color: red;
+}
+
+.error-message.active {
+  display: block;
+} */
