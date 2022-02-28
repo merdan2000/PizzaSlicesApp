@@ -73,29 +73,3 @@ body, .container {
 .load-message.active {
   display: block;
 }
-
-/* .label {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.input {
-  margin-top: 50px;
-  padding: 5px 10px;
-}
-
-.input.error {
-  border-color: red;
-  outline: red;
-}
-
-.error-message {
-  display: none;
-  margin-top: 5px;
-  color: red;
-}
-
-.error-message.active {
-  display: block;
-} */
